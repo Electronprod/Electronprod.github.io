@@ -1,3 +1,12 @@
+body {
+    background-color: #121214;
+    color: #e1e1e6;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
 .terminal-section {
     display: grid;
     grid-template-columns: 1fr;
