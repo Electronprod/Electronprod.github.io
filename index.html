@@ -23,10 +23,19 @@
   <meta property="og:url" content="/">
   <link rel="stylesheet" href="/index.css">
 </head>
+
 <body>
   <h1>Developing something new...</h1>
-  <div class="terminal-body">
-    <pre><code><span class="keyword">public class</span> <span class="class-name">AboutMe</span> {
+  <section class="terminal-section">
+    <div class="terminal">
+      <div class="terminal-header">
+        <span class="btn close"></span>
+        <span class="btn minimize"></span>
+        <span class="btn expand"></span>
+        <span class="title">AboutMe.java</span>
+      </div>
+      <div class="terminal-body">
+        <pre><code><span class="keyword">public class</span> <span class="class-name">AboutMe</span> {
     <span class="keyword">public static void</span> <span class="method">main</span>(String[] args) {
         String goal = <span class="string">"goal"</span>;
         String stack = <span class="string">"Java"</span>;
@@ -35,6 +44,16 @@
         System.out.println(<span class="string">"Ready!"</span>);
     }
 }</code></pre>
+      </div>
+    </div>
+    <div class="tech-info">
+      <h3>title</h3>
+      <p>I like <strong>Java</strong> for...</p>
+      <ul>
+        <li>list</li>
+      </ul>
+    </div>
+  </section>
   </div>
 </body>
 
